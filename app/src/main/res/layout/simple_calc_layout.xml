@@ -23,7 +23,7 @@
             android:paddingRight="40dp"
             android:textColor="@color/white"
             android:layout_weight="1"
-            android:textSize="40sp"
+            android:textSize="@dimen/areas_font"
             tools:ignore="MissingConstraints" />
 
         <TextView
@@ -34,7 +34,7 @@
             android:gravity="end|center"
             android:textColor="@color/white"
             android:paddingRight="40dp"
-            android:textSize="40sp"
+            android:textSize="@dimen/areas_font"
             tools:ignore="MissingConstraints"
              />
 

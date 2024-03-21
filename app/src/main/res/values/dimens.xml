@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="menu_font">16sp</dimen>
-    <dimen name="calc_font">16sp</dimen>
-    <dimen name="about_me_font">16sp</dimen>
+    <dimen name="areas_font">40sp</dimen>
+    <dimen name="menu_font">24sp</dimen>
+    <dimen name="calc_font">24sp</dimen>
+    <dimen name="about_me_font">24sp</dimen>
 </resources>

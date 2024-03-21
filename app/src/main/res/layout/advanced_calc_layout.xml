@@ -23,7 +23,7 @@
             android:paddingRight="40dp"
             android:textColor="@color/white"
             android:layout_weight="1"
-            android:textSize="@dimen/calc_font"
+            android:textSize="@dimen/areas_font"
             tools:ignore="MissingConstraints" />
 
         <TextView
@@ -34,7 +34,7 @@
             android:gravity="end|center"
             android:textColor="@color/white"
             android:paddingRight="40dp"
-            android:textSize="@dimen/calc_font"
+            android:textSize="@dimen/areas_font"
             tools:ignore="MissingConstraints"
             />
 
@@ -48,8 +48,6 @@
             style="@style/clearButton"
             android:text="AC"
             android:onClick="allClear"/>
-
-
         <Button
             style="@style/clearButton"
             android:text="⌫"
@@ -59,7 +57,6 @@
             android:text="√"
             android:onClick="advancedOperationAction"
             android:id="@+id/sqrt"/>
-
         <Button
             style="@style/operationButton"
             android:onClick="advancedOperationAction"
@@ -79,16 +76,15 @@
         tools:ignore="MissingConstraints">
 
         <Button
-            style="@style/operationButton"
-            android:onClick="advancedOperationAction"
-            android:text="sin"
-            android:id="@+id/sin"/>
-
+            style="@style/numberButton"
+            android:text="7"/>
         <Button
-            style="@style/operationButton"
-            android:onClick="advancedOperationAction"
-            android:text="cos"
-            android:id="@+id/cos"/>
+            style="@style/numberButton"
+            android:text="8"/>
+        <Button
+            style="@style/numberButton"
+            android:text="9"/>
+
         <Button
             style="@style/operationButton"
             android:onClick="advancedOperationAction"
@@ -100,52 +96,12 @@
             android:text="%"
             android:id="@+id/percent"/>
 
-        <Button
-            style="@style/operationButton"
-            android:text="/"/>
-
-
 
     </LinearLayout>
 
     <LinearLayout
         style="@style/rowButtons"
         tools:ignore="MissingConstraints">
-
-        <Button
-            style="@style/numberButton"
-            android:text="6"/>
-
-        <Button
-            style="@style/numberButton"
-            android:text="7"/>
-        <Button
-            style="@style/numberButton"
-            android:text="8"/>
-
-        <Button
-            style="@style/numberButton"
-            android:text="9"/>
-
-        <Button
-            style="@style/operationButton"
-            android:text="*"/>
-
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        style="@style/rowButtons"
-        tools:ignore="MissingConstraints">
-
-        <Button
-            style="@style/numberButton"
-            android:text="2" />
-
-        <Button
-            style="@style/numberButton"
-            android:text="3"/>
 
         <Button
             style="@style/numberButton"
@@ -154,10 +110,47 @@
         <Button
             style="@style/numberButton"
             android:text="5"/>
+        <Button
+            style="@style/numberButton"
+            android:text="6"/>
 
         <Button
             style="@style/operationButton"
-            android:text="-"/>
+            android:onClick="advancedOperationAction"
+            android:text="cos"
+            android:id="@+id/cos"/>
+
+        <Button
+            style="@style/operationButton"
+            android:text="*"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/rowButtons"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            style="@style/numberButton"
+            android:text="1" />
+
+        <Button
+            style="@style/numberButton"
+            android:text="2"/>
+
+        <Button
+            style="@style/numberButton"
+            android:text="3"/>
+
+        <Button
+            style="@style/operationButton"
+            android:onClick="advancedOperationAction"
+            android:text="sin"
+            android:id="@+id/sin"/>
+
+        <Button
+            style="@style/operationButton"
+            android:text="/"/>
 
     </LinearLayout>
 
@@ -172,10 +165,6 @@
 
         <Button
             style="@style/numberButton"
-            android:text="1"/>
-
-        <Button
-            style="@style/numberButton"
             android:onClick="commaAction"
             android:text="."/>
 
@@ -187,8 +176,11 @@
 
         <Button
             style="@style/operationButton"
-            android:text="+"/>
+            android:text="-"/>
 
+        <Button
+            style="@style/operationButton"
+            android:text="+"/>
 
     </LinearLayout>
 

@@ -95,8 +95,7 @@ class SimpleCalcActivity : Activity() {
         try {
             val expression = ExpressionBuilder(expressionString).build()
             val calculatedResult = expression.evaluate()
-            val resultString = String.format("%.8f", calculatedResult)
-            result.text = resultString.substring(0, minOf(resultString.length, 8))
+            result.text = calculatedResult.toString()
             resultText = result.text.toString()
         } catch (e: Exception) {
             result.text = "Error"
