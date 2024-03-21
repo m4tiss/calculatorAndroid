@@ -9,7 +9,7 @@
         android:gravity="center"
         android:background="@color/white"
         android:textColor="@color/orange"
-        android:textSize="30sp"
+        android:textSize="@dimen/about_me_font"
         android:text="Aplikacja: Kalkulator\n
      Autor: Mateusz Gwóźdź\n
 Opis: Prosty kalkulator prosty oraz zaawansowany"/>

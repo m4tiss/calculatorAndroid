@@ -20,36 +20,40 @@
 
         <Button
             android:layout_width="wrap_content"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:text="Kalkulator prosty"
             android:layout_marginVertical="10dp"
             android:padding="10dp"
+            android:textSize="@dimen/menu_font"
             android:background="@color/orange"
             android:onClick="goSimpleCalculator"
             />
         <Button
             android:layout_width="wrap_content"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:text="Kalkulator Zaawansowany"
             android:layout_marginVertical="10dp"
+            android:textSize="@dimen/menu_font"
             android:padding="10dp"
             android:background="@color/orange"
             android:onClick="goAdvancedCalculator"
             />
         <Button
             android:layout_width="wrap_content"
-            android:layout_height="45dp"
+            android:layout_height="wrap_content"
             android:padding="10dp"
             android:background="@color/orange"
+            android:textSize="@dimen/menu_font"
             android:text="O mnie"
             android:layout_marginVertical="10dp"
             android:onClick="goAboutMe"
             />
         <Button
             android:layout_width="wrap_content"
-            android:layout_height="45dp"
+            android:layout_height="wrap_content"
             android:padding="10dp"
             android:background="@color/orange"
+            android:textSize="@dimen/menu_font"
             android:text="Wyjdź"
             android:layout_marginVertical="10dp"
             android:onClick="exitApp"
